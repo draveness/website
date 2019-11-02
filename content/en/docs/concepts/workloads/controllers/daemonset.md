@@ -115,7 +115,7 @@ when the Pod is created, so it is ignored by the scheduler).  Therefore:
 
 ### Scheduled by default scheduler (enabled by default since 1.12)
 
-{{< feature-state state="beta" for-kubernetes-version="1.12" >}}
+{{< feature-state state="ga" for-kubernetes-version="1.17" >}}
 
 A DaemonSet ensures that all eligible nodes run a copy of a Pod. Normally, the
 node that a Pod runs on is selected by the Kubernetes scheduler. However,
